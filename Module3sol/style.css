@@ -1,0 +1,81 @@
+.container-fluid{
+	margin: 0;
+	padding: 0;
+}
+
+.navbar{
+	border-radius: 5px;
+	background-color: midnightblue;
+}
+
+.navbar-brand{
+  font-size: 35px;
+  color: white;
+  padding-left: 25px;
+}
+.nav{
+	margin: 0;
+	padding: 0;
+}
+.navbar-nav{
+  font-size: 25px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.navbar-toggle{
+	border: 2px solid white;
+	margin-right: 25px;
+}
+
+.icon-bar{
+	background-color: white;
+}
+.main-title{
+  margin-bottom: 15px;
+  text-align: center;
+  color:#b30000;
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+li{
+	box-sizing: border-box;
+	width: 100%;
+}
+.menu-item{
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	background-color: wheat;
+	border-bottom:0.5px solid black;
+	color:#b30000;
+	display: block;
+}
+.menu-item:hover{
+	background-color: 	color: aquamarine;
+}
+.row{
+	margin: 20px;
+}
+
+.content-box{
+	margin-bottom: 20px;
+	width: auto;
+	height: auto;
+	color: black;
+	background-color: grey;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 20px;
+}
+
+.item-name{
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#p1 >a, #p2>a, #p3>a{
+	color: red;
+  float: right;
+}
